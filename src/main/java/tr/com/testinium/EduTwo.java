@@ -52,20 +52,53 @@ public class EduTwo {
         double tr = 4;
         double ty = 5;
         double toplam = tr / ty;
-        System.out.println(toplam);
-        ;
+        //System.out.println(toplam);
+
         toplam++; // toplam = toplam + 1;
         toplam += 5; // toplam = toplam + 5;
         //System.out.println(toplam);
 
         int deger = 10;
-        System.out.println(++deger);
-        System.out.println(deger);
+        //System.out.println(++deger);
+        //System.out.println(deger);
 
         boolean deger1 = 4 == 3;
 
+        int xr = 7;
+        int yr = 5;
+
+        //System.out.println(!(xr == 7) || (yr == 5));
+
+        String ornekString = "abc";
+        String b= "def";
+        ornekString += b;
+        int ilkSayi = 5;
+        int ikinciSayi = 8;
+        //System.out.println(ornekString + b + "aasdfjanf");
+
+        System.out.println(ilkSayi + ikinciSayi);
+        System.out.println(ornekString + (ilkSayi + ikinciSayi));
+        System.out.println((ornekString) + ilkSayi + ikinciSayi);
+        System.out.println(ilkSayi + ikinciSayi + ornekString);
+
+        String ad = "Ebubekir";
+        System.out.println(ad);
+
+        // String string = "";
+        // string c = "";
 
     }
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
