@@ -12,10 +12,12 @@ public class Ogrenci{
         ogrenci.ad = "Ebubekir";
         ogrenci.soyad = "Durukal";
         Okul agu = new Okul();
-        agu.ad = "agu";
-        agu.adres = "Kayseri";
-        agu.year = 2020;
-        ogrenci.okul = agu;
-        System.out.println(ogrenci.okul.adres);
+        Okul agu1 = new Okul("asd",  "ad",1996);
+        //agu.ad = "agu";
+        agu.setAd("agu");
+        //agu.adres = "Kayseri";
+        agu.setAdres("Kayseri");
+
+        System.out.println(ogrenci.okul.getAdres());
     }
 }
